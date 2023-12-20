@@ -11,12 +11,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/root.css">
-  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/events.css">
 </head>
 <body>
   <header>
     <section id="left">
-      <img id="logo" src="images/icon.svg">
+      <div class="icon-btn">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 928.68">
+        <path d="m525.29,369.43L51.77,479.54l.09.38,15.32,65.88,12.17,52.32,54.96,236.36c15.23,65.49,80.66,106.23,146.15,91.01h0s-75.69-325.49-75.69-325.49c-3.78-16.26,6.34-32.51,22.6-36.29,16.26-3.78,32.51,6.34,36.29,22.6l75.69,325.49,118.58-27.57-75.69-325.49c-3.78-16.26,6.34-32.51,22.6-36.29,16.26-3.78,32.51,6.34,36.29,22.6l75.69,325.49,118.58-27.57-89.58-385.23-20.53-88.29Z"/>
+        <path d="m873.01,101.5l-8.26-35.54c-10.68-45.84-56.48-74.4-102.35-63.72l-74.11,17.24,20.73,89.13c3.78,16.26-6.34,32.51-22.6,36.29h0c-16.25,3.78-32.49-6.34-36.28-22.59l-20.75-89.15-430.13,100.02,20.73,89.14c3.78,16.26-6.33,32.5-22.59,36.28h-.03c-16.26,3.79-32.51-6.33-36.29-22.59l-20.73-89.13-74.4,17.31c-45.87,10.65-74.4,56.48-63.72,102.32l8.26,35.54,27.57,118.61,862.52-200.59-27.57-118.58Z"/>
+        <path d="m996.81,633.92l-182.08,42.34c-16.26,3.78-32.51-6.34-36.29-22.6s6.34-32.51,22.6-36.29l182.08-42.34-27.57-118.58-182.08,42.34c-16.26,3.78-32.51-6.34-36.29-22.6-3.78-16.26,6.34-32.51,22.6-36.29l182.08-42.34-27.57-118.58-330.1,76.76.09.38,20.44,87.91,7.04,30.29,82.53,354.94,118.58-27.57h0s92.94-21.61,92.94-21.61c65.49-15.23,106.23-80.66,91.01-146.15Z"/>
+        </svg>
+      </div>
       <input type="text" placeholder="Search Events">
     </section>
     <section id="middle">
@@ -24,7 +34,7 @@
     <section id="right">
       <div class="icon-btn">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="4 1.96005 16 20.04">
-          <path d="M 10 20 h 4 c 0 1.1 -0.9 2 -2 2 s -2 -0.9 -2 -2 z m 10 -2.65 V 19 H 4 v -1.65 l 2 -1.88 v -5.15 C 6 7.4 7.56 5.1 10 4.34 v -0.38 c 0 -1.42 1.49 -2.5 2.99 -1.76 c 0.65 0.32 1.01 1.03 1.01 1.76 v 0.39 c 2.44 0.75 4 3.06 4 5.98 v 5.15 l 2 1.87 z l -2 -1.88 z" fill="#FFF"/>
+          <path d="M 10 20 h 4 c 0 1.1 -0.9 2 -2 2 s -2 -0.9 -2 -2 z m 10 -2.65 V 19 H 4 v -1.65 l 2 -1.88 v -5.15 C 6 7.4 7.56 5.1 10 4.34 v -0.38 c 0 -1.42 1.49 -2.5 2.99 -1.76 c 0.65 0.32 1.01 1.03 1.01 1.76 v 0.39 c 2.44 0.75 4 3.06 4 5.98 v 5.15 l 2 1.87 z l -2 -1.88 z"/>
         </svg>
       </div>
       <div id="user">
@@ -40,7 +50,18 @@
     <main>
       <section id="events">
         <div class="event">
-          
+          <div></div>
+          <section>
+            <div>
+              <p class="event-date">TOMORROW AT 7PM</p>
+              <p class="event-title">Christmas Party</p>
+              <p class="event-location">Waterfront Cebu City Hotel & Casino</p>
+              <p class="event-members"><span>23</span> going · <span>12</span> requested</p>
+            </div>
+            <div>
+              <button class="request-btn">Request to join</button>
+            </div>
+          </section>
         </div>
       </section>
     </main>

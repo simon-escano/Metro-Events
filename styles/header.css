@@ -1,21 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: var(--primary);
-    font-family: Nunito;
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
 header {
     z-index: 1;
     display: flex;
@@ -24,25 +6,6 @@ header {
     background-color: var(--neutral);
     height: 60px;
     box-shadow: var(--shadow-medium);
-}
-
-input {
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    padding: 10px 16px;
-    color: var(--primary);
-    background-color: var(--neutral-light);
-} input::placeholder {
-    color: var(--neutral-lighter);
-}
-
-button {
-    border: none;
-    outline: none;
-    padding: 10px 16px;
-    border-radius: 10px;
-    cursor: pointer;
 }
 
 header > section {
@@ -55,9 +18,14 @@ header > section {
 #left {
     width: 300px;
     padding-left: 20px;
+    align-items: center;
     > #logo {
         height: 100%;
         cursor: pointer;
+    }
+    > p {
+        font-size: 22px;
+        font-weight: 700;
     }
     > input {
         flex: 1;
@@ -94,31 +62,4 @@ header > section {
         cursor: pointer;
         border-radius: 10px;
     }
-}
-
-#content-box {
-    display: flex;
-    flex: 1;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    background-color: var(--neutral);
-    width: 300px;
-    padding: 20px;
-
-    > * {
-        width: 100%;
-    }
-}
-
-#create-btn {
-    background-image: var(--secondary-gradient);
-}
-
-main {
-    flex: 1;
-    background-color: var(--neutral-dark);
 }

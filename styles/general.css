@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--primary);
+    font-family: Nunito;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+    color: var(--primary);
+    background-color: var(--neutral-light);
+} input::placeholder {
+    color: var(--neutral-lighter);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-gradient {
+    background-image: var(--secondary-gradient);
+}
+
+#content-box {
+    display: flex;
+    flex: 1;
+}
+
+main {
+    flex: 1;
+    background-color: var(--neutral-dark);
+}
