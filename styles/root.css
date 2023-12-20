@@ -1,0 +1,11 @@
+:root {
+    --primary: #FFF;
+    --primary-opp: #000;
+    --neutral: hsl(180, 5%, 11%);
+    --neutral-lighter: #848f8f;
+    --neutral-light: hsl(180, 5%, 19%);
+    --neutral-dark: hsl(150, 5%, 8%);
+    --secondary-gradient: linear-gradient(90deg,#4dbc5d,#00a694);
+    --shadow-small: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    --shadow-medium: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
